@@ -4,4 +4,5 @@ author : mehdi habibi
 3 december 2024 
 # LFPRegNet 
 
-** Dataset **
+## ** Dataset **
+This datasets contain three rats , this data was recorded by khorasani ,2016
