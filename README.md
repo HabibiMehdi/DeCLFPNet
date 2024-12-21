@@ -22,6 +22,47 @@ Brain-computer interfaces (BCIs) hold transformative potential for empowering in
    
 ### 4.1. Dataset
 This datasets contain three rats , this data was recorded by khorasani ,2016
+Here's the final text tailored for a GitHub repository. It's concise, informative, and formatted for easy readability in Markdown:
+
+---
+
+### Datasets
+
+This project utilizes two key datasets:  
+
+#### 1. Rats' LFP Dataset  
+- **Subjects**: Three Wistar rats (200–300 g).  
+- **Task**: Lever pressing to receive water rewards (force range: 0–0.15 N; lever movement: 0°–90°).  
+- **Recording**:  
+  - LFP signals from a 4 × 4 microwire array implanted in the left hemisphere (16 channels).  
+  - Recorded at 10 kHz, filtered (0.1–500 Hz), and downsampled to 1 kHz.  
+- **Trials**:  
+  - Rat 1: 74 trials  
+  - Rat 2: 79 trials  
+  - Rat 3: 80 trials  
+- **Data**:  
+  - LFPs: (trials, 16, 3000)  
+  - Force: (trials, 3000)  
+
+#### 2. Monkey's LFP Dataset  
+- **Subjects**: Rhesus Monkey C.  
+- **Task**: Center-out task—reaching from a central target to one of eight targets arranged in a circular pattern.  
+- **Recording**:  
+  - LFP signals from M1 and PMd using a 96-channel silicon microelectrode array.  
+  - Neural signals bandpass-filtered (1–500 Hz) and resampled to 1 kHz.  
+- **Motion Data**: Two positional and two velocity dimensions aligned with neural signals.  
+
+---
+
+### Dataset Summary Table  
+
+| **Dataset**   | **Subject**         | **Recording**        | **Task**                |  
+|---------------|---------------------|----------------------|-------------------------|  
+| Rats' LFP     | Three Wistar rats   | 16 LFP Channels      | Force movement          |  
+| Monkey's LFP  | One rhesus monkey   | 96 LFP Channels      | Center-out movement     |  
+
+---
+
 
 ### 4.2. Model
 ### 4.3. Configurations
