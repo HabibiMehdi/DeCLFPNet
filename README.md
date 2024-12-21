@@ -4,6 +4,7 @@ author : mehdi habibi
  3 december 2024 
 
 ## 1. Problem Statement
+Brain-computer interfaces (BCIs) hold transformative potential for empowering individuals with motor impairments, offering them greater independence in daily life. However, decoding neural signals related to movement parameters remains a significant challenge for real-world applications. To address this, we propose a novel deep neural network that combines a convolutional block for feature extraction and a recurrent block for decoding continuous movement and applied force from LFP signals. By streamlining the feature extraction process and generalizing across diverse datasets, our approach not only advances decoding accuracy but also enhances our understanding of the neural dynamics underlying motor control.
 
 ## 2. Related Works
 
