@@ -66,7 +66,8 @@ This project utilizes two key datasets:
 
 ### 4.2. Model
 ### 4.3. Configurations
-### 4.4. Train
-### 4.5. Evaluate
+### 4.4. Training LFPRegNet
+### 4.5  Results
+### 4.5. Contact
    
 
