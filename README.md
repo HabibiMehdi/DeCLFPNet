@@ -50,7 +50,9 @@ This project utilizes two key datasets:
 - **Recording**:  
   - LFP signals from M1 and PMd using a 96-channel silicon microelectrode array.  
   - Neural signals bandpass-filtered (1–500 Hz) and resampled to 1 kHz.  
-- **Motion Data**: Two positional and two velocity dimensions aligned with neural signals.  
+- **Motion Data**: Two positional and two velocity dimensions aligned with neural signals.
+- **Center-Out Task Example**
+<p align="center"> <img src="https://www.researchgate.net/publication/267930377/figure/fig1/AS:359753692794888@1462783373018/Center-out-task-kinematics-The-trajectories-show-the-position-of-the-tip-of-the-index.png" alt="Center-out task example" width="500"> </p> <p align="center"><i>Center-out task</i></p>
 
 ---
 
