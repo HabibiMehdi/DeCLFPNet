@@ -6,9 +6,11 @@ author : mehdi habibi
 ## 1. Problem Statement
 
 ## 2. Related Works
-                                                                                     	| Code                                                                              	|
-|------	|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|-----------------------------------------------------------------------------------	|
-| 2017 	| [Attention Is All You Need](https://arxiv.org/abs/1706.03762v7)<br>The paper introduces a architecture called Transformer. It is an architecture for transforming one sequence into another one with the help of two parts (Encoder and Decoder). Transformer uses the attention-mechanism. The attention-mechanism looks at an input sequence and decides at each step which other parts of the sequence are important                                                                                       	| [Link](https://github.com/huggingface/transformers)                               	|
+
+| Date | Paper | Description |
+|------|-------|-------------|
+| 2017 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | The paper introduces an architecture called Transformer. It is an architecture for transforming one sequence into another one with the help of two parts (Encoder and Decoder). Transformer uses the attention mechanism, which looks at an input sequence and decides at each step which other parts of the sequence are important. |
+| 2020 | [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477) | Wav2Vec 2.0 uses a self-supervised training approach for Automatic Speech Recognition, based on the idea of contrastive learning. It learns speech representations on unlabeled data. |
 
 
 ## 3. The Proposed Method
