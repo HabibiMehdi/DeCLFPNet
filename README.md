@@ -7,7 +7,7 @@ author : mehdi habibi
 Brain-computer interfaces (BCIs) hold transformative potential for empowering individuals with motor impairments, offering them greater independence in daily life. However, decoding neural signals related to movement parameters remains a significant challenge for real-world applications. To address this, we propose a novel deep neural network that combines a convolutional block for feature extraction and a recurrent block for decoding continuous movement and applied force from LFP signals. By streamlining the feature extraction process and generalizing across diverse datasets, our approach not only advances decoding accuracy but also enhances our understanding of the neural dynamics underlying motor control.
 
 ## 2. Related Works
-
+### Force Decoding
 | Date | Paper | Description |
 |------|-------|-------------|
 | 2016 | [Continuous Force Decoding from Local Field Potentials of the Primary Motor Cortex in Freely Moving Rats](https://www.nature.com/articles/srep35238) | This paper presents a method for decoding continuous force from local field potentials (LFPs) recorded in the primary motor cortex of freely moving rats. It demonstrates the feasibility of decoding motor signals in a naturalistic setting. |
