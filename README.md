@@ -44,10 +44,7 @@ This project utilizes two key datasets:
 - **Data**:  
   - LFPs: (trials, 16, 3000)  
   - Force: (trials, 3000)
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/541fd9ba-100a-41e0-9933-a7e4dfb08a1c" alt="Force Movement Example" width="500">
-</p>
-<p align="center"><i>Example of Force movement</i></p>
+
 
 #### 2. Monkey's LFP Dataset  
 - **Subjects**: Rhesus Monkey C.  
@@ -56,8 +53,10 @@ This project utilizes two key datasets:
   - LFP signals from M1 and PMd using a 96-channel silicon microelectrode array.  
   - Neural signals bandpass-filtered (1–500 Hz) and resampled to 1 kHz.  
 - **Motion Data**: Two positional and two velocity dimensions aligned with neural signals.
-- **Example of Center-Out movement**
-![Image](https://github.com/user-attachments/assets/541fd9ba-100a-41e0-9933-a7e4dfb08a1c)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/541fd9ba-100a-41e0-9933-a7e4dfb08a1c" alt="Force Movement Example">
+</p>
+<p align="center"><i>Monkey's LFP-Center-Out movement</i></p>
 
 
 ---
