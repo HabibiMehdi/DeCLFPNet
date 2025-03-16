@@ -69,8 +69,8 @@ trajectories
 
 | **Dataset**   | **Subject**         | **Recording**        | **Task**                |  
 |---------------|---------------------|----------------------|-------------------------|  
-| Rats' LFP     | Three Wistar rats   | 16 LFP Channels      | Force movement          |  
-| Monkey's LFP  | One rhesus monkey   | 96 LFP Channels      | Center-out movement     |  
+| [Rats' LFP](https://www.nature.com/articles/srep35238)     | Three Wistar rats   | 16 LFP Channels      | Force movement          |  
+| [Monkey's LFP](https://portal.nersc.gov/project/crcns/download/dream/data_sets/Flint_2012)  | One rhesus monkey   | 96 LFP Channels      | Center-out movement     |  
 
 ---
 
