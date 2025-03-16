@@ -15,6 +15,18 @@ Brain-computer interfaces (BCIs) hold transformative potential for empowering in
 | 2021 | [A stack LSTM structure for decoding continuous force from local field potential signal of primary motor cortex (M1)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03953-0#:~:text=The%20proposed%20stack%20LSTM%20structure,accurate%20and%20faster%20BCI%20systems.) | This study introduces a stacked LSTM structure for decoding continuous force signals from LFPs in the primary motor cortex (M1), enabling accurate and faster BCI systems. | kashefi|Rats' LFP Dataset.
 | 2012 | [Accurate decoding of reaching movements from field potentials in the absence of spikes](https://iopscience.iop.org/article/10.1088/1741-2560/9/4/046006) | Flint used a multi-input and multi-output Wiener cascade filter| Flint | Monkey's LFP.
 
+### Baseline models for comparison
+To validate the performance of the DeCLFPNet model, we compared it with several baseline studies, including Deep Xie [15], Khorasani [2], Kashefi [21], Ridge Regression, and Lasso Regression [22]. Below is a brief description of each baseline:
+
+- **[Deep Xie](https://iopscience.iop.org/article/10.1088/1741-2552/aa9dbe)**: Utilizes a custom CNN architecture followed by an LSTM and a fully connected layer with ReLU activation to decode finger trajectory from ECoG signals.
+
+- **[Khorasani](https://www.nature.com/articles/srep35238)**: Employs a BCI pipeline where LFP signals are band-pass filtered into six frequency bands (δ, θ, α, β, low-γ, high-γ), rectified, and smoothed with Savitzky-Golay to extract temporal envelopes, which are then decoded using PLS regression for continuous force values.
+
+- **[Kashefi](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03953-0)**: Proposes a stacked LSTM with two layers (30 and 15 units) connected to a fully connected neuron with ReLU activation for decoding continuous force from Rat’s LFP signals.
+
+- **Ridge Regression**: Uses the same feature extraction pipeline as Khorasani (band-pass filtering and smoothing) but applies L2 regularization for continuous force decoding from LFP signals.
+
+- **Lasso Regression**: Follows the same feature extraction process as Khorasani and Ridge, but uses L1 regularization for continuous force decoding from LFP signals.
 ## 3. The Proposed Method (DeCLFPNet)
    
 ## 4. Implementation
