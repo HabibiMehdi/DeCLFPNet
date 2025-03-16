@@ -24,9 +24,9 @@ To validate the performance of the DeCLFPNet model, we compared it with several 
 
 - **[Kashefi](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03953-0)**: Proposes a stacked LSTM with two layers (30 and 15 units) connected to a fully connected neuron with ReLU activation for decoding continuous force from Rat’s LFP signals.
 
-- **Ridge Regression**: Uses the same feature extraction pipeline as Khorasani (band-pass filtering and smoothing) but applies L2 regularization for continuous force decoding from LFP signals.
+- **[Ridge Regression](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)**: Uses the same feature extraction pipeline as Khorasani (band-pass filtering and smoothing) but applies L2 regularization for continuous force decoding from LFP signals.
 
-- **Lasso Regression**: Follows the same feature extraction process as Khorasani and Ridge, but uses L1 regularization for continuous force decoding from LFP signals.
+- **[Lasso Regression](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)**: Follows the same feature extraction process as Khorasani and Ridge, but uses L1 regularization for continuous force decoding from LFP signals.
 ## 3. The Proposed Method (DeCLFPNet)
    
 ## 4. Implementation
