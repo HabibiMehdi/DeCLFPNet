@@ -44,7 +44,10 @@ This project utilizes two key datasets:
 - **Data**:  
   - LFPs: (trials, 16, 3000)  
   - Force: (trials, 3000)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/541fd9ba-100a-41e0-9933-a7e4dfb08a1c" alt="Force Movement Example">
+</p>
+<p align="center"><i>Rats' LFP-Force movement</i></p>
 
 #### 2. Monkey's LFP Dataset  
 - **Subjects**: Rhesus Monkey C.  
