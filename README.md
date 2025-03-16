@@ -44,8 +44,9 @@ This project utilizes two key datasets:
 - **Data**:  
   - LFPs: (trials, 16, 3000)  
   - Force: (trials, 3000)
+ 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/541fd9ba-100a-41e0-9933-a7e4dfb08a1c" alt="Force Movement Example">
+  <img src="https://github.com/user-attachments/assets/f66eb7d4-2447-4148-9e35-c6ad0d66c812" alt="Force Movement">
 </p>
 <p align="center"><i>Rats' LFP-Force movement</i></p>
 
@@ -57,7 +58,7 @@ This project utilizes two key datasets:
   - Neural signals bandpass-filtered (1–500 Hz) and resampled to 1 kHz.  
 - **Motion Data**: Two positional and two velocity dimensions aligned with neural signals.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/541fd9ba-100a-41e0-9933-a7e4dfb08a1c" alt="Force Movement Example">
+  <img src="https://github.com/user-attachments/assets/541fd9ba-100a-41e0-9933-a7e4dfb08a1c" alt="Center-Out movement">
 </p>
 <p align="center"><i>Monkey's LFP-Center-Out movement</i></p>
 
