@@ -17,14 +17,11 @@ Brain-computer interfaces (BCIs) hold transformative potential for empowering in
 | 2021 | [A stack LSTM structure for decoding continuous force from local field potential signal of primary motor cortex (M1)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03953-0#:~:text=The%20proposed%20stack%20LSTM%20structure,accurate%20and%20faster%20BCI%20systems.) | This study introduces a stacked LSTM structure for decoding continuous force signals from LFPs in the primary motor cortex (M1), enabling accurate and faster BCI systems. |
 
 
-## 3. The Proposed Method
+## 3. The Proposed Method (DeCLFPNet)
    
 ## 4. Implementation
    
 ### 4.1. Dataset
-This datasets contain three rats , this data was recorded by khorasani ,2016
-Here's the final text tailored for a GitHub repository. It's concise, informative, and formatted for easy readability in Markdown:
-
 ---
 
 ### Datasets
@@ -32,6 +29,7 @@ Here's the final text tailored for a GitHub repository. It's concise, informativ
 This project utilizes two key datasets:  
 
 #### 1. Rats' LFP Dataset  
+This dataset was gathered in our neuroscience laboratory in 2016 by Khorasani et al. for the purpose of decoding the applied force of rats from 16 channels of local field potential signals.
 - **Subjects**: Three Wistar rats (200–300 g).  
 - **Task**: Lever pressing to receive water rewards (force range: 0–0.15 N; lever movement: 0°–90°).  
 - **Recording**:  
@@ -51,6 +49,8 @@ This project utilizes two key datasets:
 <p align="center"><i>Rats' LFP-Force movement</i></p>
 
 #### 2. Monkey's LFP Dataset  
+This dataset is the publicly available LFP dataset for decoding hand position
+trajectories
 - **Subjects**: Rhesus Monkey C.  
 - **Task**: Center-out task—reaching from a central target to one of eight targets arranged in a circular pattern.  
 - **Recording**:  
@@ -77,7 +77,7 @@ This project utilizes two key datasets:
 
 ### 4.2. Model
 ### 4.3. Configurations
-### 4.4. Training LFPRegNet
+### 4.4. Training DeCLFPNet
 ### 4.5  Results
 ### 4.5. Contact
    
