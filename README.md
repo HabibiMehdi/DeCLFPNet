@@ -13,7 +13,7 @@ Brain-computer interfaces (BCIs) hold transformative potential for empowering in
 |------|-------|-------------|--------|-----------|
 | 2016 | [Continuous Force Decoding from Local Field Potentials of the Primary Motor Cortex in Freely Moving Rats](https://www.nature.com/articles/srep35238) | This paper presents a method for decoding continuous force from local field potentials (LFPs) recorded in the primary motor cortex of freely moving rats. It demonstrates the feasibility of decoding motor signals in a naturalistic setting. | Khorasani|Rats' LFP Dataset.
 | 2021 | [A stack LSTM structure for decoding continuous force from local field potential signal of primary motor cortex (M1)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-03953-0#:~:text=The%20proposed%20stack%20LSTM%20structure,accurate%20and%20faster%20BCI%20systems.) | This study introduces a stacked LSTM structure for decoding continuous force signals from LFPs in the primary motor cortex (M1), enabling accurate and faster BCI systems. | kashefi|Rats' LFP Dataset.
-| 2012 | [Accurate decoding of reaching movements from field potentials in the absence of spikes](https://iopscience.iop.org/article/10.1088/1741-2560/9/4/046006) | Flint | Monkey's LFP.
+| 2012 | [Accurate decoding of reaching movements from field potentials in the absence of spikes](https://iopscience.iop.org/article/10.1088/1741-2560/9/4/046006) | Flint used a multi-input and multi-output Wiener cascade filter| Flint | Monkey's LFP.
 
 ## 3. The Proposed Method (DeCLFPNet)
    
