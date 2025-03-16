@@ -44,8 +44,11 @@ This project utilizes two key datasets:
 - **Data**:  
   - LFPs: (trials, 16, 3000)  
   - Force: (trials, 3000)
-  - **Example of Force movement**
-![Image](https://github.com/user-attachments/assets/7ccca9a4-0ff4-4dc0-9f40-9a0b2b78fa63)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/541fd9ba-100a-41e0-9933-a7e4dfb08a1c" alt="Force Movement Example" width="500">
+</p>
+<p align="center"><i>Example of Force movement</i></p>
+
 #### 2. Monkey's LFP Dataset  
 - **Subjects**: Rhesus Monkey C.  
 - **Task**: Center-out task—reaching from a central target to one of eight targets arranged in a circular pattern.  
